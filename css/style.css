@@ -926,6 +926,10 @@ img {
   .nav__menu {
     padding: 2rem 0.25rem 4rem;
   }
+  .home__img,
+  .home__data {
+    margin-left: 1rem;
+  }
   .nav__list {
     gap: 0;
   }
