@@ -1031,7 +1031,7 @@ img {
     height: calc(var(--header-height) + 2rem);
   }
   .nav__menu {
-    margin-top: 2rem;
+    margin-top: 0;
   }
   .nav__link {
     font-size: var(--small-font-size);
@@ -1040,6 +1040,28 @@ img {
     transition: 0.3s;
     padding: 0.5rem;
     border-radius: 1rem;
+  }
+  .nav__link {
+    font-size: var(--small-font-size);
+    color: var(--title-color);
+    font-weight: var(--font-medium);
+    transition: 0.3s;
+    padding: 0.5rem;
+    border-radius: 1rem;
+  }
+  .nav__link:hover {
+    color: var(--first-color);
+  }
+  .nav__link__scroll {
+    color: #fff;
+    font-size: var(--small-font-size);
+    font-weight: var(--font-medium);
+    transition: 0.3s;
+    padding: 0.5rem;
+    border-radius: 1rem;
+  }
+  .nav__link__scroll:hover {
+    color: #000;
   }
   .nav__icon,
   .nav__close,
