@@ -186,6 +186,7 @@ onscroll = function () {
   const scroll = document.querySelector(".scrollup");
   const theme = document.querySelector("#theme-button");
   const navLinks = document.querySelectorAll("a[rel]");
+  const navMenu = document.querySelector(".nav__menu");
 
   if (scrollPosition >= 300) {
     header.classList.add("header__scroll");
@@ -196,6 +197,7 @@ onscroll = function () {
       navLinks[i].classList.remove("nav__link");
       navLinks[i].classList.add("nav__link__scroll");
     }
+    navMenu.classList.add("nav__menu-scroll");
     /* ===================== SHOW SCROLL ===================== */
     scroll.classList.add("show__scroll");
   } else {
